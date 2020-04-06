@@ -1,0 +1,86 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+
+}
+header{
+    width: 100%;
+    background: #204051;
+    color: #cae8d5;
+padding-top: 1em;
+padding-bottom: 1em;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+section{
+    width: 70%;
+    margin: 0 auto 0 auto;
+}
+article{
+    padding: 40px 0 20px 0;
+    border-bottom: solid 2px #3b6978;
+    }
+
+    article h2{
+        float: left; /*dezplazar el elemento de izquiera a derecha*/
+    border-bottom: solid 2px #cae8d5; /* le da subrayado*/
+    padding-bottom: 5px; /*separacion*/
+    text-transform: uppercase; /*texto en mayuscula*/
+line-height: 1.3em;
+font-size: 1em;    
+}
+    article p, article ul{
+        margin-left: 20%;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 1.3em;
+        color: #204051;
+        margin-bottom: 1.5em;
+    }
+article h3{
+    font-size: 1em;
+    margin-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3em;
+}
+article ul li{
+    margin-left: 15px;
+    list-style: square;
+}
+
+footer{
+    width: 100%;/*ocupa el 100%*/
+    background: #204051;
+    margin-top: 3em;
+    padding: 2em;
+    color: #cae8d5;
+}
+footer p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3em;
+}
+footer a:link, footer a:visited{
+    color: #cae8d5;
+}
+footer a:hover{
+    text-decoration: none;/*quita la linea*/
+}
+header img{
+    width: 100px;
+    display: block; /*sirven para centrar la imagen*/
+    margin: auto;   /*sirve para centrar la imagen*/
+margin-top: 1%;
+margin-left: 46%;
+border-radius: 100%;
+}
+
